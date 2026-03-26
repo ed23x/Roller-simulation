@@ -1,0 +1,39 @@
+﻿[Files]
+File0=Roller.java
+File1=Fahrer.java
+
+[Box:  - Fahrer]
+X=80
+Y=62
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+
+[Box:  - Roller]
+X=660
+Y=53
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+
+[Diagram]
+Comments=0
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+ShowConnections=0
+Fontname=Segoe UI
+Fontsize=12
+ShowObjectDiagram=0
+
+[Connections]
+V0=Fahrer#Roller#AssociationDirected##- meinRoller#\r\n#0#0#-1##1#0#0
+
+[Interactive]
+I0=
+
