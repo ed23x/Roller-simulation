@@ -4,11 +4,11 @@ public class Roller {
 
   // start attributes
   private static double tankgröße = 8.4;
-  private static double kilometerstand = 2749;
+  private static double kilometerstand = 4162;
   private static double tankinhalt = 5;
   private static double preisProLiter = 1.99;
   // end attributes
-  
+
   public Roller(double tankgröße, double kilometerstand, double tankinhalt) {
     this.tankgröße = tankgröße;
     this.kilometerstand = kilometerstand;
@@ -36,9 +36,9 @@ public class Roller {
     tankinhalt = tankinhaltNeu;
   }
 
-  public static void setPreisProLiter(double preisProLiter) {
-    Roller.preisProLiter = preisProLiter;
-  }
+//  public static void setPreisProLiter(double preisProLiter) {
+//    Roller.preisProLiter = preisProLiter;
+//  }
 
   public static double getPreisProLiter(){return preisProLiter;}
 

@@ -1,0 +1,11 @@
+# Auto detect text files and normalize to LF
+* text=auto
+
+# Java
+*.class binary
+
+# Gradle
+.gradle/ binary
+
+# Maven
+target/ binary

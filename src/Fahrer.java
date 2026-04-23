@@ -1,12 +1,12 @@
 package src;
 
 public class Fahrer {
-  
+
   // start attributes
   private static double geld = 55;
   private String name = "Hephaestus";
   // end attributes
-  
+
   // start methods
   public static double getGeld() {
     return geld;
